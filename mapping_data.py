@@ -96,49 +96,49 @@ nscore= {
  0.91093:45,
 }
 
-escore: {
--3.27393	:	16,
--3.00537	:	18,
--2.72827	:	19,
--2.5383	:	20,
--2.44904	:	21,
--2.32338	:	22,
--2.21069	:	23,
--2.11437	:	24,
--2.03972	:	25,
--1.92173	:	26,
--1.7625	:	27,
--1.6334	:	28,
--1.50796	:	29,
--1.37639	:	30,
--1.23177	:	31,
--1.09207	:	32,
--0.94779	:	33,
--0.80615	:	34,
--0.69509	:	35,
--0.57545	:	36,
--0.43999	:	37,
--0.30033	:	38,
--0.15487	:	39,
-0.00332	:	40,
-0.16767	:	41,
-0.32197	:	42,
-0.47617	:	43,
-0.63779	:	44,
-0.80523	:	45,
-0.96248	:	46,
-1.11406	:	47,
-1.2861	:	48,
-1.45421	:	49,
-1.58487	:	50,
-1.74091	:	51,
-1.93886	:	52,
-2.127	:	53,
-2.32338	:	54,
-2.57309	:	55,
-2.8595	:	56,
-3.00537	:	58,
-3.27393	:	59,
+escore= {
+-3.27393:16,
+-3.00537:18,
+-2.72827:19,
+-2.5383:20,
+-2.44904:21,
+-2.32338:22,
+-2.21069:23,
+-2.11437:24,
+-2.03972:25,
+-1.92173:26,
+-1.7625:27,
+-1.6334:28,
+-1.50796:29,
+-1.37639:30,
+-1.23177:31,
+-1.09207:32,
+-0.94779:33,
+-0.80615:34,
+-0.69509:35,
+-0.57545:36,
+-0.43999:37,
+-0.30033:38,
+-0.15487:39,
+0.00332:40,
+0.16767:41,
+0.32197:42,
+0.47617:43,
+0.63779:44,
+0.80523:45,
+0.96248:46,
+1.11406:47,
+1.2861:48,
+1.45421:49,
+1.58487:50,
+1.74091:51,
+1.93886:52,
+2.127:53,
+2.32338:54,
+2.57309:55,
+2.8595:56,
+3.00537:58,
+3.27393:59
 }
 
 ascore ={
@@ -267,7 +267,7 @@ cscore = {
 3.46436	:	59,
 }
 
-alcohol = {
+drogue = {
 "CL0": "Never Used" ,
 "CL1" :"Used over a Decade Ago" ,
 "CL2" :"Used in Last Decade",
@@ -277,182 +277,12 @@ alcohol = {
 "CL6" :"Used in Last Day" ,
 }
 
-amphet  = {
-"CL0": "Never Used" ,
-"CL1" :"Used over a Decade Ago" ,
-"CL2" :"Used in Last Decade",
-"CL3" :"Used in Last Year" ,
-"CL4": "Used in Last Month" ,
-"CL5" :"Used in Last Week" ,
-"CL6" :"Used in Last Day" ,
-}
-
-amyl  = {
-"CL0": "Never Used" ,
-"CL1" :"Used over a Decade Ago" ,
-"CL2" :"Used in Last Decade",
-"CL3" :"Used in Last Year" ,
-"CL4": "Used in Last Month" ,
-"CL5" :"Used in Last Week" ,
-"CL6" :"Used in Last Day" ,
-}
-
-benzos  = {
-"CL0": "Never Used" ,
-"CL1" :"Used over a Decade Ago" ,
-"CL2" :"Used in Last Decade",
-"CL3" :"Used in Last Year" ,
-"CL4": "Used in Last Month" ,
-"CL5" :"Used in Last Week" ,
-"CL6" :"Used in Last Day" ,
-}
-
-cannabis={
-"CL0": "Never Used" ,
-"CL1" :"Used over a Decade Ago" ,
-"CL2" :"Used in Last Decade",
-"CL3" :"Used in Last Year" ,
-"CL4": "Used in Last Month" ,
-"CL5" :"Used in Last Week" ,
-"CL6" :"Used in Last Day" ,
-}
-
-caff  = {
-"CL0": "Never Used" ,
-"CL1" :"Used over a Decade Ago" ,
-"CL2" :"Used in Last Decade",
-"CL3" :"Used in Last Year" ,
-"CL4": "Used in Last Month" ,
-"CL5" :"Used in Last Week" ,
-"CL6" :"Used in Last Day" ,
-}
-
-choc   = {
-"CL0": "Never Used" ,
-"CL1" :"Used over a Decade Ago" ,
-"CL2" :"Used in Last Decade",
-"CL3" :"Used in Last Year" ,
-"CL4": "Used in Last Month" ,
-"CL5" :"Used in Last Week" ,
-"CL6" :"Used in Last Day" ,
-}
-
-coke = {
-"CL0": "Never Used" ,
-"CL1" :"Used over a Decade Ago" ,
-"CL2" :"Used in Last Decade",
-"CL3" :"Used in Last Year" ,
-"CL4": "Used in Last Month" ,
-"CL5" :"Used in Last Week" ,
-"CL6" :"Used in Last Day" ,
-}
-
-crack  = {
-"CL0": "Never Used" ,
-"CL1" :"Used over a Decade Ago" ,
-"CL2" :"Used in Last Decade",
-"CL3" :"Used in Last Year" ,
-"CL4": "Used in Last Month" ,
-"CL5" :"Used in Last Week" ,
-"CL6" :"Used in Last Day" ,
-}
-
-ecstasy  = {
-"CL0": "Never Used" ,
-"CL1" :"Used over a Decade Ago" ,
-"CL2" :"Used in Last Decade",
-"CL3" :"Used in Last Year" ,
-"CL4": "Used in Last Month" ,
-"CL5" :"Used in Last Week" ,
-"CL6" :"Used in Last Day" ,
-}
-
-heroin  = {
-"CL0": "Never Used" ,
-"CL1" :"Used over a Decade Ago" ,
-"CL2" :"Used in Last Decade",
-"CL3" :"Used in Last Year" ,
-"CL4": "Used in Last Month" ,
-"CL5" :"Used in Last Week" ,
-"CL6" :"Used in Last Day" ,
-}
-
-ketamine  = {
-"CL0": "Never Used" ,
-"CL1" :"Used over a Decade Ago" ,
-"CL2" :"Used in Last Decade",
-"CL3" :"Used in Last Year" ,
-"CL4": "Used in Last Month" ,
-"CL5" :"Used in Last Week" ,
-"CL6" :"Used in Last Day" ,
-}
-
-legalh  = {
-"CL0": "Never Used" ,
-"CL1" :"Used over a Decade Ago" ,
-"CL2" :"Used in Last Decade",
-"CL3" :"Used in Last Year" ,
-"CL4": "Used in Last Month" ,
-"CL5" :"Used in Last Week" ,
-"CL6" :"Used in Last Day" ,
-}
-
-lsd = {
-"CL0": "Never Used" ,
-"CL1" :"Used over a Decade Ago" ,
-"CL2" :"Used in Last Decade",
-"CL3" :"Used in Last Year" ,
-"CL4": "Used in Last Month" ,
-"CL5" :"Used in Last Week" ,
-"CL6" :"Used in Last Day" ,
-}
-
-meth = {
-"CL0": "Never Used" ,
-"CL1" :"Used over a Decade Ago" ,
-"CL2" :"Used in Last Decade",
-"CL3" :"Used in Last Year" ,
-"CL4": "Used in Last Month" ,
-"CL5" :"Used in Last Week" ,
-"CL6" :"Used in Last Day" ,
-}
-
-mushrooms = {
-"CL0": "Never Used" ,
-"CL1" :"Used over a Decade Ago" ,
-"CL2" :"Used in Last Decade",
-"CL3" :"Used in Last Year" ,
-"CL4": "Used in Last Month" ,
-"CL5" :"Used in Last Week" ,
-"CL6" :"Used in Last Day" ,
-}
-
-nicotine = {
-"CL0": "Never Used" ,
-"CL1" :"Used over a Decade Ago" ,
-"CL2" :"Used in Last Decade",
-"CL3" :"Used in Last Year" ,
-"CL4": "Used in Last Month" ,
-"CL5" :"Used in Last Week" ,
-"CL6" :"Used in Last Day" ,
-}
-
-semer = {
-"CL0": "Never Used" ,
-"CL1" :"Used over a Decade Ago" ,
-"CL2" :"Used in Last Decade",
-"CL3" :"Used in Last Year" ,
-"CL4": "Used in Last Month" ,
-"CL5" :"Used in Last Week" ,
-"CL6" :"Used in Last Day" ,
-}
-
-vsa = {
-"CL0": "Never Used" ,
-"CL1" :"Used over a Decade Ago" ,
-"CL2" :"Used in Last Decade",
-"CL3" :"Used in Last Year" ,
-"CL4": "Used in Last Month" ,
-"CL5" :"Used in Last Week" ,
-"CL6" :"Used in Last Day" ,
+User = {
+"Never Used": "Non-user" ,
+"Used over a Decade Ago":"Non-user" ,
+"Used in Last Decade":"User",
+"Used in Last Year":"User" ,
+"Used in Last Month": "User" ,
+"Used in Last Week":"User" ,
+"Used in Last Day" :"User" ,
 }
