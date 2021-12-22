@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/main.css') }}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" action="/">
+        <fieldset>      
+            <legend>What is the age of the person ?</legend>
+            <input type="checkbox" value="age:21" name="mycheckbox">18-24<br>
+            <input type="checkbox" value="age:29" name="mycheckbox">25-34<br>
+            <input type="checkbox" value="age:39" name="mycheckbox">35-44<br>
+            <input type="checkbox" value="age:49" name="mycheckbox">45-54<br>
+            <input type="checkbox" value="age:59" name="mycheckbox">55-64<br>
+            <input type="checkbox" value="age:75" name="mycheckbox">65+<br>
+        </fieldset>
+        <fieldset>      
+            <legend>What is the gender of the person ?</legend>
+            <input type="checkbox" value="Female" name="mycheckbox">Female<br>
+            <input type="checkbox" value="Male" name="mycheckbox">Male<br>
+        </fieldset>
+        <fieldset>
+        <legend>What is the level of education of the person ?</legend>
+            <input type="checkbox" value="edu:Left school before 16 years" name="mycheckbox">Left school before 16 years<br>
+            <input type="checkbox" value="edu:Left school at 16 years" name="mycheckbox">Left school at 16 years<br>
+            <input type="checkbox" value="edu:Left school at 17 years" name="mycheckbox">Left school at 17 years<br>
+            <input type="checkbox" value="edu:Left school at 18 years" name="mycheckbox">Left school at 18 years<br>
+            <input type="checkbox" value="edu:Some college or university, no certificate or degree" name="mycheckbox">Some college or university, no certificate or degree<br>
+            <input type="checkbox" value="edu:Professional certificate/ diploma" name="mycheckbox">Professional certificate/ diploma<br>
+            <input type="checkbox" value="edu:University degree" name="mycheckbox">University degree<br>
+            <input type="checkbox" value="edu:Masters degree" name="mycheckbox">Masters degree<br>
+            <input type="checkbox" value="edu:Doctorate degree " name="mycheckbox">Doctorate degree <br>
+        </fieldset>
+        <fieldset>      
+            <legend>Where does the person live ?</legend>
+            <input type="checkbox" value="coun:Australia" name="mycheckbox">Australia<br>
+            <input type="checkbox" value="coun:Canada" name="mycheckbox">Canada<br>
+            <input type="checkbox" value="coun:New Zeland" name="mycheckbox">New Zeland<br>
+            <input type="checkbox" value="coun:Republic of Ireland" name="mycheckbox">Republic of Ireland<br>
+            <input type="checkbox" value="coun:UK" name="mycheckbox">UK<br>
+            <input type="checkbox" value="coun:USA" name="mycheckbox">USA<br>
+            <input type="checkbox" value="coun:Other" name="mycheckbox">Other<br>
+        </fieldset>
+
+        <fieldset>      
+            <legend>What is the ethnicity of the person ?</legend>
+            <input type="checkbox" value="eth:Asian" name="mycheckbox">Asian<br>
+            <input type="checkbox" value="eth:Black" name="mycheckbox">Black<br>
+            <input type="checkbox" value="eth:Mixed-Black/Asian" name="mycheckbox">Mixed-Black/Asian<br>
+            <input type="checkbox" value="eth:Mixed-White/Asian" name="mycheckbox">Mixed-White/Asian<br>
+            <input type="checkbox" value="eth:Mixed-White/Black" name="mycheckbox">Mixed-White/Black<br>
+            <input type="checkbox" value="eth:White" name="mycheckbox">White<br>
+            <input type="checkbox" value="eth:Other" name="mycheckbox">Other<br>
+        </fieldset>
+
+        <fieldset>      
+            <legend>What is the Neuroticism score of the person (integer between 12 and 60) ?</legend>
+            <input type="text"  name="nscore">
+        </fieldset>
+
+        <fieldset>      
+            <legend>What is the Extraversion score of the person (integer between 12 and 60) ?</legend>
+            <input type="text"  name="escore">
+        </fieldset>
+
+        <fieldset>      
+            <legend>What is the Openness to experience score of the person (integer between 12 and 60) ?</legend>
+            <input type="text"  name="oscore">
+        </fieldset>
+
+        <fieldset>      
+            <legend>What is the Agreeableness score of the person (integer between 12 and 60) ?</legend>
+            <input type="text"  name="ascore">
+        </fieldset>
+
+
+        <fieldset>      
+            <legend>What is the Conscientiousness score of the person (integer between 12 and 60) ?</legend>
+            <input type="text"  name="cscore">
+        </fieldset>
+        
+        <fieldset>      
+            <legend>What is the sensation seeing measured by ImpSS of the person ?</legend>
+            <input type="checkbox" value="ss:-2.07848" name="mycheckbox">-2.07848<br>
+            <input type="checkbox" value="ss:-1.54858" name="mycheckbox">-1.54858<br>
+            <input type="checkbox" value="ss:-1.18084" name="mycheckbox">-1.18084<br>
+            <input type="checkbox" value="ss:-0.84637" name="mycheckbox">-0.84637<br>
+            <input type="checkbox" value="ss:-0.52593" name="mycheckbox">-0.52593<br>
+            <input type="checkbox" value="ss:-0.21575" name="mycheckbox">-0.21575<br>
+            <input type="checkbox" value="ss:0.07987" name="mycheckbox">0.07987<br>
+            <input type="checkbox" value="ss:0.40148" name="mycheckbox">0.40148<br>
+            <input type="checkbox" value="ss:0.76540" name="mycheckbox">0.76540<br>
+            <input type="checkbox" value="ss:1.22470" name="mycheckbox">1.22470<br>
+            <input type="checkbox" value="ss:1.92173" name="mycheckbox">1.92173<br>
+        </fieldset>
+
+
+        <fieldset>      
+            <legend>What is the impulsiveness measured by BIS-11 of the person ?</legend>
+            <input type="checkbox" value="im:-2.55524" name="mycheckbox">-2.55524<br>
+            <input type="checkbox" value="im:-1.37983" name="mycheckbox">-1.37983<br>
+            <input type="checkbox" value="im:-0.71126" name="mycheckbox">-0.71126<br>
+            <input type="checkbox" value="im:-0.21712" name="mycheckbox">-0.21712<br>
+            <input type="checkbox" value="im:0.19268" name="mycheckbox">0.19268<br>
+            <input type="checkbox" value="im:0.52975" name="mycheckbox">0.52975<br>
+            <input type="checkbox" value="im:0.88113" name="mycheckbox">0.88113<br>
+            <input type="checkbox" value="im:1.29221" name="mycheckbox">1.29221<br>
+            <input type="checkbox" value="im:1.86203" name="mycheckbox">1.86203<br>
+            <input type="checkbox" value="im:2.90161" name="mycheckbox">2.90161<br>
+
+            
+        </fieldset>
+
+        <input type="submit" value="Estimate">
+    </form>
+</body>
+</html>
+
