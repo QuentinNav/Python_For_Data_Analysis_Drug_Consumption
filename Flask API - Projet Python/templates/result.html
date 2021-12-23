@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/main.css') }}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drugged Estimator</title>
+</head>
+
+
+<body>
+<fieldset>      
+    <legend>This is the Result !</legend>
+    {{drug}}
+</fieldset>
+<button onclick="window.location.href='http://localhost:5000/';">
+    Go back to the form
+</button>
+</body>
