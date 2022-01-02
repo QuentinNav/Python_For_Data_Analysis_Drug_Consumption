@@ -1,123 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/main.css') }}">
+
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/css/images/logo Esilv.png">
     <title>Drugged Estimator</title>
 </head>
 <body>
+<h1 id ="title" background-color= rgb(17, 102, 158) padding=2rem align="center">Drugged Estimator</h1>
+  <fieldset>
+      <legend>Explanation</legend>
+      <ul>
+        <li>Enter the requested characteristics of someone in order to know if he has a profile favorable to drug use</li>
+        <li>If you don't know the answer to the question you can chosse or enter "na"</li>
+        <li>The more characteristics you enter, the more reliable the result will be</li>
+        <li>You must choose an answer to all the question for the estimator to work</li>
+        <li>Once finished click on the "Estimate" button to see the results </li>
+      </ul>
+  </fieldset>
     <form method="POST" action="/result">
-        <fieldset>      
+        <fieldset>
             <legend>What is the age of the person ?</legend>
-            <input type="checkbox" value="21" name="mycheckbox">18-24<br>
-            <input type="checkbox" value="29" name="mycheckbox">25-34<br>
-            <input type="checkbox" value="39" name="mycheckbox">35-44<br>
-            <input type="checkbox" value="49" name="mycheckbox">45-54<br>
-            <input type="checkbox" value="59" name="mycheckbox">55-64<br>
-            <input type="checkbox" value="75" name="mycheckbox">65+<br>
+            <input type="radio" value="21" name="age">18-24<br>
+            <input type="radio" value="29" name="age">25-34<br>
+            <input type="radio" value="39" name="age">35-44<br>
+            <input type="radio" value="49" name="age">45-54<br>
+            <input type="radio" value="59" name="age">55-64<br>
+            <input type="radio" value="75" name="age">65+<br>
+            <input type="radio" value="na" name="age">NA<br>
         </fieldset>
-        <fieldset>      
+        <fieldset>
             <legend>What is the gender of the person ?</legend>
-            <input type="checkbox" value="0" name="mycheckbox">Female<br>
-            <input type="checkbox" value="1" name="mycheckbox">Male<br>
+            <input type="radio" value="0" name="gender">Female<br>
+            <input type="radio" value="1" name="gender">Male<br>
+            <input type="radio" value="na" name="gender">NA<br>
         </fieldset>
         <fieldset>
         <legend>What is the level of education of the person ?</legend>
-            <input type="checkbox" value="0" name="mycheckbox">Left school before 16 years<br>
-            <input type="checkbox" value="1" name="mycheckbox">Left school at 16 years<br>
-            <input type="checkbox" value="2" name="mycheckbox">Left school at 17 years<br>
-            <input type="checkbox" value="3" name="mycheckbox">Left school at 18 years<br>
-            <input type="checkbox" value="4" name="mycheckbox">Some college or university, no certificate or degree<br>
-            <input type="checkbox" value="5" name="mycheckbox">Professional certificate/ diploma<br>
-            <input type="checkbox" value="6" name="mycheckbox">University degree<br>
-            <input type="checkbox" value="7" name="mycheckbox">Masters degree<br>
-            <input type="checkbox" value="8" name="mycheckbox">Doctorate degree<br>
+            <input type="radio" value="0" name="education">Left school before 16 years<br>
+            <input type="radio" value="1" name="education">Left school at 16 years<br>
+            <input type="radio" value="2" name="education">Left school at 17 years<br>
+            <input type="radio" value="3" name="education">Left school at 18 years<br>
+            <input type="radio" value="4" name="education">Some college or university, no certificate or degree<br>
+            <input type="radio" value="5" name="education">Professional certificate/ diploma<br>
+            <input type="radio" value="6" name="education">University degree<br>
+            <input type="radio" value="7" name="education">Masters degree<br>
+            <input type="radio" value="8" name="education">Doctorate degree<br>
+            <input type="radio" value="na" name="education">NA<br>
         </fieldset>
-        <fieldset>      
+        <fieldset>
             <legend>Where does the person live ?</legend>
-            <input type="checkbox" value="0" name="mycheckbox">Australia<br>
-            <input type="checkbox" value="1" name="mycheckbox">Canada<br>
-            <input type="checkbox" value="2" name="mycheckbox">New Zeland<br>
-            <input type="checkbox" value="4" name="mycheckbox">Republic of Ireland<br>
-            <input type="checkbox" value="5" name="mycheckbox">UK<br>
-            <input type="checkbox" value="6" name="mycheckbox">USA<br>
-            <input type="checkbox" value="3" name="mycheckbox">Other<br>
+            <input type="radio" value="0" name="country">Australia<br>
+            <input type="radio" value="1" name="country">Canada<br>
+            <input type="radio" value="2" name="country">New Zeland<br>
+            <input type="radio" value="4" name="country">Republic of Ireland<br>
+            <input type="radio" value="5" name="country">UK<br>
+            <input type="radio" value="6" name="country">USA<br>
+            <input type="radio" value="3" name="country">Other<br>
+            <input type="radio" value="na" name="country">NA<br>
         </fieldset>
 
-        <fieldset>      
+        <fieldset>
             <legend>What is the ethnicity of the person ?</legend>
-            <input type="checkbox" value="Asian" name="mycheckbox">Asian<br>
-            <input type="checkbox" value="Black" name="mycheckbox">Black<br>
-            <input type="checkbox" value="Mixed-Black/Asian" name="mycheckbox">Mixed-Black/Asian<br>
-            <input type="checkbox" value="Mixed-White/Asian" name="mycheckbox">Mixed-White/Asian<br>
-            <input type="checkbox" value="Mixed-White/Black" name="mycheckbox">Mixed-White/Black<br>
-            <input type="checkbox" value="White" name="mycheckbox">White<br>
-            <input type="checkbox" value="Other" name="mycheckbox">Other<br>
+            <input type="radio" value="Asian" name="ethnicity">Asian<br>
+            <input type="radio" value="Black" name="ethnicity">Black<br>
+            <input type="radio" value="Mixed-Black/Asian" name="ethnicity">Mixed-Black/Asian<br>
+            <input type="radio" value="Mixed-White/Asian" name="ethnicityethnicity">Mixed-White/Asian<br>
+            <input type="radio" value="Mixed-White/Black" name="ethnicity">Mixed-White/Black<br>
+            <input type="radio" value="White" name="ethnicity">White<br>
+            <input type="radio" value="Other" name="ethnicity">Other<br>
+            <input type="radio" value="na" name="ethnicity">NA<br>
         </fieldset>
 
-        <fieldset>      
+        <fieldset>
             <legend>What is the Neuroticism score of the person (integer between 12 and 60) ?</legend>
-            <input type="text"  name="nscore">
+            <input type="text"  name="nscore" value="na">
         </fieldset>
 
-        <fieldset>      
+        <fieldset>
             <legend>What is the Extraversion score of the person (integer between 12 and 60) ?</legend>
-            <input type="text"  name="escore">
+            <input type="text"  name="escore" value="na">
         </fieldset>
 
-        <fieldset>      
+        <fieldset>
             <legend>What is the Openness to experience score of the person (integer between 12 and 60) ?</legend>
-            <input type="text"  name="oscore">
+            <input type="text"  name="oscore" value="na">
         </fieldset>
 
-        <fieldset>      
+        <fieldset>
             <legend>What is the Agreeableness score of the person (integer between 12 and 60) ?</legend>
-            <input type="text"  name="ascore">
+            <input type="text"  name="ascore" value="na">
         </fieldset>
 
 
-        <fieldset>      
+        <fieldset>
             <legend>What is the Conscientiousness score of the person (integer between 12 and 60) ?</legend>
-            <input type="text"  name="cscore">
+            <input type="text"  name="cscore" value="na">
         </fieldset>
-        
-        <fieldset>      
+
+        <fieldset>
             <legend>What is the sensation seeing measured by ImpSS of the person ?</legend>
-            <input type="checkbox" value="-2.07848" name="mycheckbox">-2.07848<br>
-            <input type="checkbox" value="-1.54858" name="mycheckbox">-1.54858<br>
-            <input type="checkbox" value="-1.18084" name="mycheckbox">-1.18084<br>
-            <input type="checkbox" value="-0.84637" name="mycheckbox">-0.84637<br>
-            <input type="checkbox" value="-0.52593" name="mycheckbox">-0.52593<br>
-            <input type="checkbox" value="-0.21575" name="mycheckbox">-0.21575<br>
-            <input type="checkbox" value="0.07987" name="mycheckbox">0.07987<br>
-            <input type="checkbox" value="0.40148" name="mycheckbox">0.40148<br>
-            <input type="checkbox" value="0.76540" name="mycheckbox">0.76540<br>
-            <input type="checkbox" value="1.22470" name="mycheckbox">1.22470<br>
-            <input type="checkbox" value="1.92173" name="mycheckbox">1.92173<br>
+            <input type="radio" value="-2.07848" name="sensation">-2.07848<br>
+            <input type="radio" value="-1.54858" name="sensation">-1.54858<br>
+            <input type="radio" value="-1.18084" name="sensation">-1.18084<br>
+            <input type="radio" value="-0.84637" name="sensation">-0.84637<br>
+            <input type="radio" value="-0.52593" name="sensation">-0.52593<br>
+            <input type="radio" value="-0.21575" name="sensation">-0.21575<br>
+            <input type="radio" value="0.07987" name="sensation">0.07987<br>
+            <input type="radio" value="0.40148" name="sensation">0.40148<br>
+            <input type="radio" value="0.76540" name="sensation">0.76540<br>
+            <input type="radio" value="1.22470" name="sensation">1.22470<br>
+            <input type="radio" value="1.92173" name="sensation">1.92173<br>
+            <input type="radio" value="na" name="sensation">NA<br>
         </fieldset>
 
 
-        <fieldset>      
+        <fieldset>
             <legend>What is the impulsiveness measured by BIS-11 of the person ?</legend>
-            <input type="checkbox" value="-2.55524" name="mycheckbox">-2.55524<br>
-            <input type="checkbox" value="-1.37983" name="mycheckbox">-1.37983<br>
-            <input type="checkbox" value="-0.71126" name="mycheckbox">-0.71126<br>
-            <input type="checkbox" value="-0.21712" name="mycheckbox">-0.21712<br>
-            <input type="checkbox" value="0.19268" name="mycheckbox">0.19268<br>
-            <input type="checkbox" value="0.52975" name="mycheckbox">0.52975<br>
-            <input type="checkbox" value="0.88113" name="mycheckbox">0.88113<br>
-            <input type="checkbox" value="1.29221" name="mycheckbox">1.29221<br>
-            <input type="checkbox" value="1.86203" name="mycheckbox">1.86203<br>
-            <input type="checkbox" value="2.90161" name="mycheckbox">2.90161<br>
+            <input type="radio" value="-2.55524" name="impulsiveness">-2.55524<br>
+            <input type="radio" value="-1.37983" name="impulsiveness">-1.37983<br>
+            <input type="radio" value="-0.71126" name="impulsiveness">-0.71126<br>
+            <input type="radio" value="-0.21712" name="impulsiveness">-0.21712<br>
+            <input type="radio" value="0.19268" name="impulsiveness">0.19268<br>
+            <input type="radio" value="0.52975" name="impulsiveness">0.52975<br>
+            <input type="radio" value="0.88113" name="impulsiveness">0.88113<br>
+            <input type="radio" value="1.29221" name="impulsiveness">1.29221<br>
+            <input type="radio" value="1.86203" name="impulsiveness">1.86203<br>
+            <input type="radio" value="2.90161" name="impulsiveness">2.90161<br>
+            <input type="radio" value="na" name="impulsiveness">NA<br>
 
-            
+
         </fieldset>
 
         <input type="submit" value="Estimate">
     </form>
 </body>
 </html>
-

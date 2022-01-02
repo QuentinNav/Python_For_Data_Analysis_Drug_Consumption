@@ -3,26 +3,26 @@ body {
     font-size:1rem;
     margin: 1rem 15rem;
   }
-  
+
   input, button {
     width: 100%;
     font-size: 1rem;
     line-height:1rem;
   }
-  
+
   input {
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
   }
-  
+
   fieldset {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
     border: none;
     box-shadow: 0px 0px 2px rgba(0,0,0,1);
     background-color: rgb(240,240,240);
   }
-  
+
   legend, button {
     background-color: rgb(17, 102, 158);
     padding: 0.75rem;
@@ -32,7 +32,7 @@ body {
     transform: translateX(-1.1rem);
     box-shadow: -1px 1px 1px rgba(0,0,0,0.8);
   }
-  
+
 
   legend:after {
     content: "";
@@ -47,3 +47,9 @@ body {
     left:-0.075rem;
     bottom: -0.45rem;
   }
+
+#title {
+  color:"white";
+  background-color: rgb(17, 102, 158);
+  padding: 2rem;
+}
