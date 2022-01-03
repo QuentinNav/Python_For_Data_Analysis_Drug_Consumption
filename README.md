@@ -3,13 +3,7 @@ ESILV S1 2021–2022
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Logo_ESILV.svg/2560px-Logo_ESILV.svg.png" alt="alt text" width="200" height="whatever" align="right">
 
-&nbsp;&nbsp;
 
-
-<iframe
-  src="https://archive.ics.uci.edu/ml/datasets/Drug+consumption+%28quantified%29"
-  style="width:100%; height:300px;"
-></iframe>
 
 ---
 
