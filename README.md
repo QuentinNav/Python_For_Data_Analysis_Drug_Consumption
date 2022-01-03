@@ -27,7 +27,7 @@ We succeed to set up various machine learning problem which made it possible to 
 
 &nbsp;&nbsp;
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#Table-of-contents)
 
 ---
 
@@ -63,8 +63,7 @@ The *Project_python_for_data_analysis.ipynb* contains all the code in python of 
    pip install "library name"
 ```
 
-[Back To The Top](#read-me-template)
-
+[Back To The Top](#Table-of-contents)
 ---
 
 ## How To Use the Flask API
@@ -85,8 +84,7 @@ The *Project_python_for_data_analysis.ipynb* contains all the code in python of 
 
 &nbsp;&nbsp;
 
-[Back To The Top](#read-me-template)
-
+[Back To The Top](#Table-of-contents)
 ---
 
 ## Author Info
@@ -94,6 +92,5 @@ The *Project_python_for_data_analysis.ipynb* contains all the code in python of 
 - Navarre Quentin - [@QuentinNav](https://github.com/QuentinNav)
 - Pincet Bruno - [@GitBrunoCode](https://github.com/GitBrunoCode)
 
-[Back To The Top](#read-me-template)
-
+[Back To The Top](#Table-of-contents)
 
