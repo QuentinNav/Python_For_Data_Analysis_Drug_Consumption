@@ -35,6 +35,10 @@ def data_analysis():
 @app.route('/drugged_estimator')
 def form():
         return render_template('form.html')
+    
+@app.route('/ppt_report')
+def ppt():
+    return render_template('ppt_report.html')
 
 
 @app.route('/result', methods=['POST'])

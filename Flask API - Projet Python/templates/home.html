@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/main.css') }}">
+<link rel= "stylesheet" href= "{{ url_for('static',filename='css/home.css') }}">
 
 
 <head>
@@ -13,13 +12,28 @@
 </head>
 <body>
 <h1 id ="title" align="center">Project python for data analysis</h1>
-<h3>Bruno Pincet, Quentin Navarre</h3>
+<h3>Bruno Pincet, Quentin Navarre, DIA 1</h3>
+<p >
+  Dataset : Drug consumption data set<br><br>
+  <a href="https://archive.ics.uci.edu/ml/datasets/Drug+consumption+%28quantified%29">Link to the dataset</a>
+  <br><br><br>
+</p>
 
-<button onclick="window.location.href='http://localhost:5000/drugged_estimator';">
+
+
+<button class="choice" onclick="window.location.href='http://localhost:5000/drugged_estimator';">
     Use the Drugged estimator
 </button>
-<button onclick="window.location.href='http://localhost:5000/Data_analysis';">
-    See the data analysis  
+
+
+<button class="choice"  onclick="window.location.href='http://localhost:5000/Data_analysis';">
+    See the data analysis
 </button>
+
+
+<button class="choice" onclick="window.location.href='http://localhost:5000/ppt_report';">
+    See the PowerPoint report
+</button>
+
 </body>
 </html>
