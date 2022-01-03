@@ -81,7 +81,7 @@ The *Project_python_for_data_analysis.ipynb* contains all the code in python of 
 * Execution
 
 >execute **run.py** file 
->Go to  **http://localhost:5000** file 
+>Go to  **http://localhost:5000** on your web browser 
 
 &nbsp;&nbsp;
 
