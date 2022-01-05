@@ -42,6 +42,7 @@ The *Project_python_for_data_analysis.ipynb* contains all the code in python of 
 * Data Visualization
 *  Machine Learning Modeling
 
+However, you need to install the following librairies :
 
 * Required librairies
     * numpy
