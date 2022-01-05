@@ -89,7 +89,7 @@ The *Project_python_for_data_analysis.ipynb* contains all the code in python of 
 
 ---
 
-## Author Info
+## Authors Info
 
 - Navarre Quentin - [@QuentinNav](https://github.com/QuentinNav)
 - Pincet Bruno - [@GitBrunoCode](https://github.com/GitBrunoCode)
