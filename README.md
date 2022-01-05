@@ -64,6 +64,7 @@ The *Project_python_for_data_analysis.ipynb* contains all the code in python of 
 ```
 
 [Back To The Top](#Table-of-contents)
+
 ---
 
 ## How To Use the Flask API
@@ -85,6 +86,7 @@ The *Project_python_for_data_analysis.ipynb* contains all the code in python of 
 &nbsp;&nbsp;
 
 [Back To The Top](#Table-of-contents)
+
 ---
 
 ## Author Info
